@@ -1,0 +1,7 @@
+.pokemons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    justify-items: center;
+}
